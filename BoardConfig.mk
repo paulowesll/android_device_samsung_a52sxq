@@ -16,3 +16,6 @@ TARGET_KERNEL_CONFIG := vendor/mesa_a52sxq_eur_open_defconfig
 
 # Inherit the proprietary files
 include vendor/samsung/a52sxq/BoardConfigVendor.mk
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
