@@ -12,7 +12,7 @@ include device/samsung/sm7325-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/mesa_a52sxq_swa_ins_defconfig
+TARGET_KERNEL_CONFIG := vendor/mesa_a52sxq_eur_open_defconfig
 
 # Inherit the proprietary files
 include vendor/samsung/a52sxq/BoardConfigVendor.mk
